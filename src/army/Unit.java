@@ -12,8 +12,24 @@ public class Unit {
     private int pointsAttack;
     private int pointsSpeed;
     private int attackRange;
+    private int attackLevel;
+    private int rangeAttack;
 
+    public int getAttackLevel() {
+        return attackLevel;
+    }
 
+    public void setAttackLevel(int attackLevel) {
+        this.attackLevel = attackLevel;
+    }
+
+    public int getRangeAttack() {
+        return rangeAttack;
+    }
+
+    public void setRangeAttack(int rangeAttack) {
+        this.rangeAttack = rangeAttack;
+    }
     public String getRace() {
         return race;
     }
